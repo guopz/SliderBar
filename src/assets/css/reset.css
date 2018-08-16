@@ -1,0 +1,148 @@
+/*
+ * @Author: GH
+ * @Date: 2018-06-14 10:40:51
+ * @Last Modified by: GH
+ * @Last Modified time: 2018-07-26 19:17:48
+ */
+
+
+body {
+  color: #666;
+  font: 12px microsoft yahei, SimSun, Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+p,
+blockquote,
+pre,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+th,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none outside none;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+table,
+td,
+input,
+textarea {
+  font-size: 14px;
+}
+
+textarea {
+  padding: 5px;
+  font-family: 微软雅黑;
+  resize: none;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="button"] {
+  font-family: 微软雅黑;
+}
+
+input,
+button,
+select,
+textarea,
+body a {
+  outline: none;
+  text-decoration: none;
+}
+
+a,
+button {
+  transition: all .3s;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 999px #fff inset;
+}
+
+input::-webkit-input-placeholder {
+  color: #BEC0C2;
+}
+
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #BEC0C2;
+}
+
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #BEC0C2;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #BEC0C2;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: block;
+  zoom: 1; }
